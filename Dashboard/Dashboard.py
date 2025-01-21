@@ -14,7 +14,7 @@ st.set_page_config(
 alt.themes.enable("dark")
 
 # Mengimpor Data
-DATA_PATH = 'data/day.csv'
+DATA_PATH = 'Data/day.csv'
 try:
     day_df = pd.read_csv(DATA_PATH)
 except FileNotFoundError:
